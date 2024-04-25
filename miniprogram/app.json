@@ -1,0 +1,35 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/about/about",
+    "pages/search/search",
+    "pages/catDetail/catDetail",
+    "pages/editCat/editCat",
+    "pages/addCat/addCat",
+    "pages/logs/logs",
+    "pages/all/all",
+    "pages/colors/colors"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "北大猫咪图鉴",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor":"#94070a",
+    "color": "#888888",
+    "list": [
+      {
+        "text": "查猫",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents"
+}
