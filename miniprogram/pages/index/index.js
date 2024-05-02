@@ -136,7 +136,7 @@ Page({
   },
 
   iconType: [
-    'success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'
+    'success', 'success_no', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'
   ],
 
   //转发此页面的设置
