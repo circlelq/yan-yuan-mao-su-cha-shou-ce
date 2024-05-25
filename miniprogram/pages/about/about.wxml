@@ -61,3 +61,16 @@
 </view>
 
 <text> \n </text>
+
+<view class="itemname1" style='margin-right:20rpx;'>
+  <view bindtap="naviToMini" style='flex-shrink:0; box-sizing:border-box; width:90rpx; margin-right:20rpx;'>
+    <image style="width:90rpx;height:90rpx;" src="/pages/images/circle.png"></image>
+    <view style="text-align: center;  color:#353535;"> \n 高校动保索引 </view>
+  </view>
+  <!-- <view bindtap="naviToMini1" style='flex-shrink:0; box-sizing:border-box; width:90rpx; margin-right:20rpx;'>
+    <image style="width:90rpx;height:90rpx;" src="/pages/images/circle.png"></image>
+    <view style="text-align: center;  color:#353535;"> \n 其它小程序 </view>
+  </view> -->
+</view>
+
+<text> \n </text>

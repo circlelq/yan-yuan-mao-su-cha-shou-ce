@@ -72,4 +72,17 @@ Page({
       urls: this.codeimgdata.imgList
     })
   },
+
+  // 跳转高校动保
+  naviToMini: function (e) {
+    wx.navigateToMiniProgram({
+      appId: 'wx0fb7b06a5065be09',
+      // path: 'pages/index/index',
+      envVersion: 'release',
+      success(res) {
+        // 打开成功
+      }
+    })
+  },
+  
 })
