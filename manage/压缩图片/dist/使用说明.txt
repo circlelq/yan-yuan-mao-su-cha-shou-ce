@@ -1,0 +1,4 @@
+1. 把要压缩的图片放在 input 文件夹里
+2. 双击 compress.exe
+3. 压缩好的头像在 output_png 文件夹里
+4. 压缩好的大图在 output_jpg 文件夹里
