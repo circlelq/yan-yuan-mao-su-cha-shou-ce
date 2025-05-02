@@ -1,5 +1,5 @@
 {
-  "pages": [ 
+  "pages": [
     "pages/index/index",
     "pages/about/about",
     "pages/search/search",
@@ -18,7 +18,7 @@
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "selectedColor":"#94070a",
+    "selectedColor": "#94070a",
     "color": "#888888",
     "list": [
       {

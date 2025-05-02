@@ -1,9 +1,10 @@
-page{
+page {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-.navbar{
+
+.navbar {
   /* position: relative; */
   line-height: 80rpx;
   /* flex: none; */
@@ -11,7 +12,8 @@ page{
   display: flex;
   background: #fff;
 }
-.navbar .item{
+
+.navbar .item {
   position: relative;
   flex: auto;
   text-align: center;
@@ -19,10 +21,12 @@ page{
   color: #888888;
   font-size: 32rpx;
 }
-.navbar .item.active{
+
+.navbar .item.active {
   color: #94070a;
 }
-.navbar .item.active:after{
+
+.navbar .item.active:after {
   content: "";
   display: block;
   position: absolute;

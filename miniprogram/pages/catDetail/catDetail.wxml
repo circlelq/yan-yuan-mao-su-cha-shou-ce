@@ -176,7 +176,7 @@
 
 <block wx:for="{{photoArray}}" wx:key="_id">
   <view style="display:flex; justify-content:center; align-items:center;">
-    <image mode="widthFix" class="cat_image" bindtap='previewImage' src="{{url}}{{cat.name}}{{photoArray[index]}}.jpg" data-src="{{url}}{{cat.name}}{{photoArray[index]}}.jpg"  style="width: 90%;">
+    <image mode="widthFix" class="cat_image" bindtap='previewImage' src="{{url}}{{cat.name}}{{photoArray[index]}}.jpg" data-src="{{url}}{{cat.name}}{{photoArray[index]}}.jpg" style="width: 90%;">
     </image>
   </view>
   <text> \n </text>

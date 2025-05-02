@@ -49,7 +49,7 @@ Page({
     app.mpServerless.db.collection('NewPeople').insertOne({
       userId: result.user.userId,
       time: Date()
-    }).then(res => { }).catch(console.error);
+    }).then(res => {}).catch(console.error);
   },
 
   editCat(e) {
@@ -86,7 +86,9 @@ Page({
     app.mpServerless.db.collection('SCCAPKU').find({
       status: "送养",
     }, {
-      sort: { deliveryTime: -1 },
+      sort: {
+        deliveryTime: -1
+      },
       skip: fostered_cat.length,
       limit: 20,
     }).then(res => {
@@ -104,7 +106,9 @@ Page({
     app.mpServerless.db.collection('SCCAPKU').find({
       status: "失踪",
     }, {
-      sort: { missingTime: -1 },
+      sort: {
+        missingTime: -1
+      },
       skip: unknown_cat.length,
       limit: 20,
     }).then(res => {
@@ -122,7 +126,9 @@ Page({
     app.mpServerless.db.collection('SCCAPKU').find({
       status: "离世",
     }, {
-      sort: { deathTime: -1 },
+      sort: {
+        deathTime: -1
+      },
       skip: dead_cat.length,
       limit: 20,
     }).then(res => {
